@@ -10,4 +10,9 @@ public class GooglePageTest {
 		ScriptLogger.info();
 		BrowserAction.enterField(GooglePageObjects.GOOGLE_PAGE_SEARCH_BAR_XPATH, text);
 	}
+	
+	public static void clickGoogleSearchButtonTest() throws Exception{
+		ScriptLogger.info();
+		BrowserAction.click(GooglePageObjects.GOOGLE_PAGE_GOOGLE_SEARCH_BTN_XPATH);
+	}
 }
