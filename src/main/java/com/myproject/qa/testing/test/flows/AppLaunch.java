@@ -1,4 +1,4 @@
-package com.mypoject.qa.testing.test.flows;
+package com.myproject.qa.testing.test.flows;
 
 import org.testng.annotations.Test;
 
